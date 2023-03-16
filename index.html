@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <title>Scoreboard</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="scoreboard"> 
+                <div class="sb-elements">
+                    <h3 class="title">HOME</h3>
+                    <h2 id="count-home">0</h2>
+                    <h2 id="bonus-home">Bonus</h2>
+                    <h2 class="foul">Fouls</h2>
+                    <h2 id="fouls-home">0</h2>
+                </div>
+                <div class="sb-elements">
+                    <h2 id="timer">00:00</h2>
+                    <h2 class="period-ttl">Period</h2>
+                    <h2 id="period">0</h2>
+                    <h2 id="position">Poss</h2>
+                    <h2 class="shotclock">Shotclock</h2>
+                    <h2 id="shotclock-display">0</h2>
+                </div>
+                <div class="sb-elements">
+                    <h3 class="title">GUEST</h3>
+                    <h2 id="count-guest">0</h2>
+                    <h2 id="bonus-guest">Bonus</h2>
+                    <h2 class="foul">Fouls</h2>
+                    <h2 id="fouls-guest">0</h2>
+                </div>
+            </div>
+            <h3 class="cp-title">Control Panel</h3>
+            <div class="control-panel">
+                <div class="cp-elements">
+                    <h3 class="title">Home</h3>
+                    <div>
+                        <button id="plusone" onclick="plusOneHome()">+1</button>
+                        <button id="plustwo" onclick="plustwoHome()">+2</button>
+                        <button id="plusthree" onclick="plusthreeHome()">+3</button>
+                    </div>
+                    <div>
+                        <button onclick="foulsHome()">Foul</button>
+                        <button>🔙</button>
+                    </div>
+                    <div>
+                        <button id="home-bonus-btn">Bonus</button>
+                        <button id="home-position-btn">Position</button>
+                    </div>
+                </div>
+                <div class="cp-elements">
+                    <button id="cp-start">Start the match</button>
+                    <div>
+                        <button id="Shot-24">Shot</button>
+                        <button id="Shot-14">Shot-14</button>
+                    </div>
+                    <div>
+                        <button class="cp-reset" onclick="reset()">Reset the game</button>
+                    </div>
+                </div>
+                <div class="cp-elements">
+                    <h3 class="title">Guest</h3>
+                    <div>
+                        <button id="plusthree" onclick="plusthreeGuest()">+3</button>
+                        <button id="plustwo" onclick="plustwoGuest()">+2</button>
+                        <button id="plusone" onclick="plusoneGuest()">+1</button>
+                    </div>
+                    <div>
+                        <button onclick="goBack()">🔙</button>
+                        <button onclick="foulsGuest()">Foul</button>
+                        </div>
+                    <div>
+                        <button id="guest-position-btn">Position</button>
+                        <button id="guest-bonus-btn">Bonus</button>
+                    </div>
+                </div>
+            </div>
+        <script src="index.js"></script>
+    </body>
+</html>

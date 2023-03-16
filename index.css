@@ -1,0 +1,195 @@
+body {
+    background-image: url("arena.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container {
+    color: white; 
+    display: flex;
+    flex-direction: column;
+}
+
+.scoreboard {
+    display: flex;
+    text-align: center;
+    background-color: #17529b;
+    margin: 15px auto;
+    max-width: 65%;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 0px;
+    outline: 1px solid red;
+}
+
+h2, h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sb-elements {
+    margin: 0px 10px;
+    
+}
+.title {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: cursedTimer;
+    src: url("cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf");
+}
+
+#count-home, #count-guest {
+    width: 90px;
+    height: 70px;
+    background-color: black;
+    font-family: cursedTimer;
+    margin: 0px;
+    border-radius: 10px;
+    font-size: 75px;
+    padding: 5px;
+
+}
+
+#fouls-home, #fouls-guest {
+    width: 50px;
+    height: 30px;
+    background-color: black;
+    font-family: cursedTimer;
+    border-radius: 10px;
+    font-size: 35px;
+    padding: 5px;
+    text-align: center;
+    margin: 0px 10px 0px 20px;
+    text-align: center;
+    
+}
+
+#shotclock-display {
+    width: 50px;
+    height: 30px;
+    background-color: black;
+    font-family: cursedTimer;
+    border-radius: 10px;
+    font-size: 35px;
+    padding: 5px;
+    text-align: center;
+    margin: 0px 10px 0px 20px;
+    text-align: center;
+}
+
+
+
+.foul, .shotclock {
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+#timer {
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    font-family: cursedTimer;
+    border-radius: 10px;
+    font-size: 33px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 5px;
+    
+}
+
+.period-ttl {
+    margin: 5px;
+}
+
+#period {
+    width: 40px;
+    height: 25px;
+    background-color: black;
+    font-family: cursedTimer;
+    margin: 5px 15px 8px 30px;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    padding: 3px;
+    
+}
+
+.control-panel {
+    display: flex;
+    text-align: center;
+    background-color: #17529b;
+    margin: 0px auto;
+    max-width: 65%;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    outline: 1px solid red;
+}
+
+.cp-title {
+    background-color: #17529b;
+    margin: 50px auto 8px auto;
+    max-width: 65%;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    outline: 1px solid red;
+    text-align: center;
+}
+
+.cp-elements {
+    margin: 0px 20px;
+    
+}
+
+button {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:black;
+    font-weight: bold;
+    font-size: 15px;
+    width: 75px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+#plusone {
+    width: 50px;
+    background-color: #2dc653;
+}
+
+#plustwo {
+    width: 50px;
+    background-color: #25a244;
+}
+
+#plusthree {
+    width: 55px;
+    background-color: #208b3a;
+}
+
+#cp-start {
+    width: 150px;
+    margin: 0px 20px 20px 20px;
+}
+
+.cp-reset {
+    width: 150px;
+    margin: 20px 20px 0px 20px;
+}
+
+.cp-reset:hover {
+    color: white;
+    background-color: #9d0208;
+}
+
