@@ -1,6 +1,6 @@
 # Basketball Scoreboard
 
-Live-demo ->
+Live-demo -> https://basketballsboard.netlify.app/
 
 ## What I have done;
 In this project, I reinforced my knowledge and repeated the topic that I have learnt such script tag, variables, numbers and strings, console.log, how to create functions, how to call/invoke functions from html file, the dom concept, getElementById, innerText and textContent. 
